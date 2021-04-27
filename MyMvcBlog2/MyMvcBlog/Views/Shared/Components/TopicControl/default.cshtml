@@ -1,0 +1,23 @@
+﻿@model IEnumerable<MyMvcBlog.Models.Topic>
+
+
+@foreach (var item in Model)
+{
+	<div class="card mb-4">
+		<img src=@Html.DisplayFor(a=>item.Photo) class="card-img-top img-thumbnail" alt="">
+		<div class="card-body">
+			<h4 class="card-title">@Html.DisplayFor(a => item.Title)</h4>
+			<p class="card-text">
+				@Html.DisplayFor(a => item.Description)
+			</p>
+			<a href="@Url.Action("Index","Makale")" class="nav-link active">
+				<h4>Read More...</h4>
+			</a>
+		</div>
+		<div class="card-footer text-muted">
+			Posted on March,7 2021 <a>5 min read</a>
+		</div>
+
+	</div>
+}
+

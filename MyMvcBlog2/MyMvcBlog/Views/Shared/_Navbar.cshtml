@@ -1,0 +1,53 @@
+﻿<nav class="navbar bg-dark navbar-expand-sm navbar-dark fixed-top">
+	<div class="container">
+		<a href="/" class="navbar-brand">
+			<i class="fab fa-apple"></i>&nbsp;Testing
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div id="navbarCollapse" class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a href="@Url.Action("Index","AboutUs")" class="nav-link active">
+						Our Story
+					</a>
+				</li>
+				<li class="nav-item">
+					<a  class="nav-link active">
+															 
+						Membership
+					</a>
+				</li>				
+				@*<li class="nav-item">
+					@if (Context.Request.Cookies["Email"] == null || Context.Request.Cookies["Email"] == "")
+					{
+						<a href="@Url.Action("Login","Login")" class="nav-link active">
+
+						Sign In
+
+						</a>
+									}
+					else
+					{
+						@await Component.InvokeAsync("UserControl")
+
+					}
+
+				</li>*@
+			<li class="nav-item">
+				@await Component.InvokeAsync("UserControl")
+
+			</li>
+				<li class="nav-item">
+					<a href="@Url.Action("Create","Login")" class="nav-link active">
+						Get Started
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</nav>

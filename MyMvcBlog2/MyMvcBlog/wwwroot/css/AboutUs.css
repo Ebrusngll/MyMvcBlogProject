@@ -1,0 +1,29 @@
+﻿* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #333;
+	font-size: 14px;
+	line-height: 20px;
+}
+._01-two-col {
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-direction: row;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	border-bottom: 1px solid #000;
+	background-color: #fff;
+}
+html {
+	-webkit-text-size-adjust: 100%;
+}
+.footer-animation {
+	width : 100%;
+	height : 100%;
+	margin-left : 500px;
+	margin-top : 90px;
+	
+}

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MyMvcBlog.Models.Topic>
+
+@{
+	ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="~/css/AllTopicPage.css" />
+
+<br />
+<br />
+<br />
+@*<p>
+		<a asp-action="Create">Create New</a>
+	</p>*@
+
+	<meta charset="utf-8" />
+	<title>All Topic Page</title>
+
+	<div class="main">	
+		<hr />
+		@foreach (var item in Model)
+	{
+	<div class="card">
+
+		<div class="image">
+			<img src= @Html.DisplayFor(a=>item.Photo)>
+		</div>
+		<div class="title">
+			<h1>
+				@Html.DisplayFor(a=>item.Title)
+			</h1>
+		</div>
+		<div class="des">
+			<p>@Html.DisplayFor(a=>item.Description)</p>
+			<a href="@Url.Action("Index","Makale")" class="nav-link active">
+				<h4>Read More...</h4>
+			</a>
+		</div>
+	</div>
+	}
+	
+		</div>
+
+

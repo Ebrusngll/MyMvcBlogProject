@@ -1,0 +1,35 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.logo {
+	margin: 1px;
+	margin-left: 130px;
+	width : 90px;
+	height : 90px;
+}
+
+.navbar li {
+	
+	margin: 20px;
+	position: relative;
+	left: 110px;
+}
+.btn {
+	margin-right:100px;
+}
+
+.navbar li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+.navbar li a:hover {
+	text-decoration: underline;
+	text-decoration-color: forestgreen;
+}
+.carousel-item {
+	min-height: 300px;
+	background: #ccc;
+}
+.col-md-6 {
+	margin-left:300px;
+}
