@@ -1,7 +1,7 @@
 # MyMvcBlogProject
 Bu proje Mvc ile ilgili daha detaylı bir kullanım yapma amacıyla oluşturulmuş bir deneme projesidir.
 
-Projenin Database i COde first ile oluşturulmuş olup migration yöntemi ile ayağa kaldırılmıştır.
+Projenin Database i Code first ile oluşturulmuş olup migration yöntemi ile ayağa kaldırılmıştır.
 Asp.net Core mvc ve EntityFramework core teknolojileri kullanılarak işlenmiş bir projedir.
 OOP ve SOLID prensibleri esas alınarak kodlama yapılmıştır 
 Clean Code metadolojisine uyulmuştur.
