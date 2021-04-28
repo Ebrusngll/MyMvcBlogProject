@@ -5,6 +5,6 @@ Projenin Database i Code first ile oluşturulmuş olup migration yöntemi ile ay
 Asp.net Core mvc ve EntityFramework core teknolojileri kullanılarak işlenmiş bir projedir.
 OOP ve SOLID prensibleri esas alınarak kodlama yapılmıştır 
 Clean Code metadolojisine uyulmuştur.
-HTML sayfaları tamamen kendi tasarımımdır bu sayflara uygun css ve scriptler yazılmıştır ve bootsrapt kullanılmıştır.
+HTML sayfaları tasarlanmıştır, bu sayflara uygun css ve scriptler yazılmıştır ve bootsrapt kullanılmıştır.
 
 Tamamen MVC yi daha iyi öğrenebilmek için yapılmış bir projedir.
